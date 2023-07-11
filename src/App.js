@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
         <center>
-          <h1>🍔 Food Recipe App 🍔</h1>
+          <h1>🍔 Food Recipe Plaza 🍔</h1>
           <form onSubmit={handleClick}>
             <input className='input__name' type='text' value = {search} onChange={(e) => setsearch(e.target.value)}></input><br/>
             <input className='btn btn-primary' type='submit' value='Search'></input>
